@@ -118,7 +118,7 @@ namespace IOOFTest
             }
         }
         
-        static void Main(/*string[] args*/)
+        static void Main()
         {
             char[] spearators = { ' ', ',' };
             string[] command = Console.ReadLine().Split(spearators);
