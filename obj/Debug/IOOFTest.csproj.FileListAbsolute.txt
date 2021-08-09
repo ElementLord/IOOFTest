@@ -1,0 +1,7 @@
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\bin\Debug\IOOFTest.exe.config
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\bin\Debug\IOOFTest.exe
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\bin\Debug\IOOFTest.pdb
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\obj\Debug\IOOFTest.csproj.AssemblyReference.cache
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\obj\Debug\IOOFTest.csproj.CoreCompileInputs.cache
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\obj\Debug\IOOFTest.exe
+C:\Users\ihami\Desktop\Personal\Code Projects\IOOFTest\obj\Debug\IOOFTest.pdb
