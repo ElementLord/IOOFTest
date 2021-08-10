@@ -45,6 +45,7 @@ namespace IOOFTest
                     }
 
                     placedOnTable = true;
+                    //Console.WriteLine("--Position: " + botCurrentX + "," + botCurrentY + "," + botCurrentFacing); //Position Message
                 }
                 else
                 {
@@ -63,18 +64,20 @@ namespace IOOFTest
             switch (botCurrentFacing)
             {
                 case Direction.NORTH:
-                    if (botCurrentY != 4) { botCurrentY++; } 
+                    if (botCurrentY != 4) { botCurrentY++; } //else { Console.WriteLine("--EDGE HIT"); } //Error Message
                     break;
                 case Direction.EAST:
-                    if (botCurrentX != 4) { botCurrentX++; }
+                    if (botCurrentX != 4) { botCurrentX++; } //else { Console.WriteLine("--EDGE HIT"); } //Error Message
                     break;
                 case Direction.SOUTH:
-                    if (botCurrentY != 0) { botCurrentY--; }
+                    if (botCurrentY != 0) { botCurrentY--; } //else { Console.WriteLine("--EDGE HIT"); } //Error Message
                     break;
                 case Direction.WEST:
-                    if (botCurrentX != 0) { botCurrentX--; }
+                    if (botCurrentX != 0) { botCurrentX--; } //else { Console.WriteLine("--EDGE HIT"); } //Error Message
                     break;
             }
+
+            //Console.WriteLine("--Position: " + botCurrentX + "," + botCurrentY + "," + botCurrentFacing); //Position Message
         }
         
         /* Turns the robot 90 degrees to the Left of the current Facing */
@@ -95,7 +98,8 @@ namespace IOOFTest
                     botCurrentFacing = Direction.SOUTH;
                     break;
             }
-            
+
+            //Console.WriteLine("--Position: " + botCurrentX + "," + botCurrentY + "," + botCurrentFacing); //Position Message
         }
 
         /* Turns the robot 90 degrees to the Right of the current Facing */
@@ -116,8 +120,10 @@ namespace IOOFTest
                     botCurrentFacing = Direction.NORTH;
                     break;
             }
+
+            //Console.WriteLine("--Position: " + botCurrentX + "," + botCurrentY + "," + botCurrentFacing); //Position Message
         }
-        
+
         static void Main()
         {
             char[] spearators = { ' ', ',' };
@@ -156,7 +162,7 @@ namespace IOOFTest
 
             if (placedOnTable == true) //If robot was not placed on the table, displays a different message
             {
-                Console.WriteLine("Output: " + botCurrentX + "," + botCurrentY + "," + botCurrentFacing.ToString());
+                Console.WriteLine("Output: " + botCurrentX + "," + botCurrentY + "," + botCurrentFacing);
             }
             else
             {
